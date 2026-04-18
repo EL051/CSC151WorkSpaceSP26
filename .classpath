@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+    <!-- Production source folder -->
+    <classpathentry kind="src" path="src/main/java"/>
+    <!-- Test source folder -->
+    <classpathentry kind="src" path="src/test/java"/>
+    <!-- Standard Java runtime -->
+    <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+    <!-- JUnit JAR — pre-configured so you do not need to add it manually -->
+    <classpathentry kind="lib" path="junit-platform-console-standalone-1.9.3.jar"/>
+    <!-- Compiled output goes into the bin/ folder -->
+    <classpathentry kind="output" path="bin"/>
+</classpath>
